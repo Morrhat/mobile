@@ -1,0 +1,32 @@
+2025-01-29 19:15:41.309  5883-5918  SessionLifecycleClient  com.example.shop_list                D  Sending lifecycle 2 to service
+2025-01-29 19:15:41.310  5883-5925  SessionLifecycleService com.example.shop_list                D  Activity backgrounding at 11963309
+2025-01-29 19:15:41.330  5883-5883  WindowManager           com.example.shop_list                E  android.view.WindowLeaked: Activity com.example.shop_list.MainActivity has leaked window DecorView@4adb351[MainActivity] that was originally added here
+                                                                                                    	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:943)
+                                                                                                    	at android.view.ViewRootImpl.<init>(ViewRootImpl.java:931)
+                                                                                                    	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:391)
+                                                                                                    	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:148)
+                                                                                                    	at android.app.Dialog.show(Dialog.java:352)
+                                                                                                    	at androidx.appcompat.app.AlertDialog$Builder.show(AlertDialog.java:1009)
+                                                                                                    	at com.example.shop_list.MainActivity.editTaskDialog(MainActivity.kt:122)
+                                                                                                    	at com.example.shop_list.MainActivity.access$editTaskDialog(MainActivity.kt:67)
+                                                                                                    	at com.example.shop_list.MainActivity$onCreate$1.invoke(MainActivity.kt:78)
+                                                                                                    	at com.example.shop_list.MainActivity$onCreate$1.invoke(MainActivity.kt:78)
+                                                                                                    	at com.example.shop_list.ToDoAdapter.onBindViewHolder$lambda$4$lambda$3(MainActivity.kt:58)
+                                                                                                    	at com.example.shop_list.ToDoAdapter.$r8$lambda$hq1wc8p09kw77Q7MyZ49JNzgssY(Unknown Source:0)
+                                                                                                    	at com.example.shop_list.ToDoAdapter$$ExternalSyntheticLambda3.onLongClick(D8$$SyntheticClass:0)
+                                                                                                    	at android.view.View.performLongClickInternal(View.java:7622)
+                                                                                                    	at android.view.View.performLongClick(View.java:7580)
+                                                                                                    	at android.widget.TextView.performLongClick(TextView.java:12974)
+                                                                                                    	at android.view.View.performLongClick(View.java:7598)
+                                                                                                    	at android.view.View$CheckForLongPress.run(View.java:29434)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:942)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:201)
+                                                                                                    	at android.os.Looper.loop(Looper.java:288)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:7924)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:936)
+2025-01-29 19:15:41.354  5883-5883  AutofillManager         com.example.shop_list                D  Fill dialog is enabled:false, hints=[password, passwordAuto, creditCardNumber, creditCardSecurityCode, creditCardExpirationDate]
+2025-01-29 19:15:41.424  5883-5915  SessionLifecycleClient  com.example.shop_list                D  Sending lifecycle 1 to service
+2025-01-29 19:15:41.425  5883-5925  SessionLifecycleService com.example.shop_list                D  Activity foregrounding at 11963425.
