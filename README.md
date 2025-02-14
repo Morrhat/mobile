@@ -66,7 +66,7 @@
       </tr>
       <tr>
         <td>1</td>
-        <td>Таблица - Регрессионное тестирование по готовым тест-кейсам с результатами</td>
+        <td>Таблица - Регрессионное тестирование по готовым тест-кейсам с результатами проверок</td>
         <td><a href= "https://docs.google.com/spreadsheets/d/1mRi2XozWIrls8ej4G_iigOVZf3oq1N5GNsXfKCqnrG4/edit?usp=sharing"><img title="publiclink" src="https://img.icons8.com/?size=100&id=80410&format=png&color=000000" width="40" height="40" alt="gmail"/></a></td>
       </tr>
       <tr>
@@ -76,7 +76,7 @@
       </tr>
       <tr>
         <td>2</td>
-        <td>Таблица - Отчеты о дефектах для мобильного приложения Яндекс-Самокат </td>
+        <td>Таблица - Отчеты о дефектах для мобильного приложения Яндекс-Самокат</td>
         <td><a href= "https://docs.google.com/spreadsheets/d/1WVizxDzCmZouFyHMyvFnu0KxoAp3hTcmBrVhrLB3UlE/edit?usp=sharing"><img title="publiclink" src="https://img.icons8.com/?size=100&id=80410&format=png&color=000000" width="40" height="40" alt="gmail"/></a></td>
       </tr>
 </table>
